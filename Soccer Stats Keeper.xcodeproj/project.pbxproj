@@ -1,0 +1,731 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C778A4461AED30F800359AF4 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C778A4451AED30F800359AF4 /* Images.xcassets */; };
+		C77BB4C01AEBAD49003D2AA6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C77BB4BF1AEBAD49003D2AA6 /* AppDelegate.swift */; };
+		C77BB4C31AEBAD49003D2AA6 /* Soccer_Stats_Keeper.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = C77BB4C11AEBAD49003D2AA6 /* Soccer_Stats_Keeper.xcdatamodeld */; };
+		C77BB4C81AEBAD49003D2AA6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C77BB4C61AEBAD49003D2AA6 /* Main.storyboard */; };
+		C77BB4CA1AEBAD49003D2AA6 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C77BB4C91AEBAD49003D2AA6 /* Images.xcassets */; };
+		C77BB4CD1AEBAD49003D2AA6 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = C77BB4CB1AEBAD49003D2AA6 /* LaunchScreen.xib */; };
+		C77BB4D91AEBAD49003D2AA6 /* Soccer_Stats_KeeperTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C77BB4D81AEBAD49003D2AA6 /* Soccer_Stats_KeeperTests.swift */; };
+		C77BB4EB1AEBAD8C003D2AA6 /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C77BB4EA1AEBAD8C003D2AA6 /* InterfaceController.swift */; };
+		C77BB4ED1AEBAD8C003D2AA6 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C77BB4EC1AEBAD8C003D2AA6 /* Images.xcassets */; };
+		C77BB4F11AEBAD8C003D2AA6 /* Soccer Stats Keeper WatchKit App.app in Resources */ = {isa = PBXBuildFile; fileRef = C77BB4F01AEBAD8C003D2AA6 /* Soccer Stats Keeper WatchKit App.app */; };
+		C77BB4F91AEBAD8C003D2AA6 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C77BB4F71AEBAD8C003D2AA6 /* Interface.storyboard */; };
+		C77BB4FE1AEBAD8C003D2AA6 /* Soccer Stats Keeper WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = C77BB4E61AEBAD8C003D2AA6 /* Soccer Stats Keeper WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		C7A1A52C1AED7A1100157847 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = C7A1A52B1AED7A1100157847 /* LaunchScreen.xib */; };
+		C7D7004A1AEBBD890017A4D4 /* HomeLadsInterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7D700491AEBBD890017A4D4 /* HomeLadsInterfaceController.swift */; };
+		C7D7004C1AEBBDA40017A4D4 /* AwayLadsInterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7D7004B1AEBBDA40017A4D4 /* AwayLadsInterfaceController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C77BB4D31AEBAD49003D2AA6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C77BB4B21AEBAD49003D2AA6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C77BB4B91AEBAD49003D2AA6;
+			remoteInfo = "Soccer Stats Keeper";
+		};
+		C77BB4F21AEBAD8C003D2AA6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C77BB4B21AEBAD49003D2AA6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C77BB4EF1AEBAD8C003D2AA6;
+			remoteInfo = "Soccer Stats Keeper WatchKit App";
+		};
+		C77BB4FC1AEBAD8C003D2AA6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C77BB4B21AEBAD49003D2AA6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C77BB4E51AEBAD8C003D2AA6;
+			remoteInfo = "Soccer Stats Keeper WatchKit Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		C77BB5051AEBAD8C003D2AA6 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				C77BB4FE1AEBAD8C003D2AA6 /* Soccer Stats Keeper WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		C778A4451AED30F800359AF4 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		C77BB4BA1AEBAD49003D2AA6 /* Soccer Stats Keeper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Soccer Stats Keeper.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C77BB4BE1AEBAD49003D2AA6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C77BB4BF1AEBAD49003D2AA6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C77BB4C21AEBAD49003D2AA6 /* Soccer_Stats_Keeper.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Soccer_Stats_Keeper.xcdatamodel; sourceTree = "<group>"; };
+		C77BB4C71AEBAD49003D2AA6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C77BB4C91AEBAD49003D2AA6 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		C77BB4CC1AEBAD49003D2AA6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		C77BB4D21AEBAD49003D2AA6 /* Soccer Stats KeeperTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Soccer Stats KeeperTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C77BB4D71AEBAD49003D2AA6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C77BB4D81AEBAD49003D2AA6 /* Soccer_Stats_KeeperTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Soccer_Stats_KeeperTests.swift; sourceTree = "<group>"; };
+		C77BB4E61AEBAD8C003D2AA6 /* Soccer Stats Keeper WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Soccer Stats Keeper WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C77BB4E91AEBAD8C003D2AA6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C77BB4EA1AEBAD8C003D2AA6 /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
+		C77BB4EC1AEBAD8C003D2AA6 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		C77BB4F01AEBAD8C003D2AA6 /* Soccer Stats Keeper WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Soccer Stats Keeper WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C77BB4F61AEBAD8C003D2AA6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C77BB4F81AEBAD8C003D2AA6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		C7A1A52B1AED7A1100157847 /* LaunchScreen.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LaunchScreen.xib; sourceTree = "<group>"; };
+		C7D700491AEBBD890017A4D4 /* HomeLadsInterfaceController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeLadsInterfaceController.swift; sourceTree = "<group>"; };
+		C7D7004B1AEBBDA40017A4D4 /* AwayLadsInterfaceController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AwayLadsInterfaceController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C77BB4B71AEBAD49003D2AA6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C77BB4CF1AEBAD49003D2AA6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C77BB4E31AEBAD8C003D2AA6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C77BB4B11AEBAD49003D2AA6 = {
+			isa = PBXGroup;
+			children = (
+				C77BB4BC1AEBAD49003D2AA6 /* Soccer Stats Keeper */,
+				C77BB4D51AEBAD49003D2AA6 /* Soccer Stats KeeperTests */,
+				C77BB4E71AEBAD8C003D2AA6 /* Soccer Stats Keeper WatchKit Extension */,
+				C77BB4F41AEBAD8C003D2AA6 /* Soccer Stats Keeper WatchKit App */,
+				C77BB4BB1AEBAD49003D2AA6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C77BB4BB1AEBAD49003D2AA6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C77BB4BA1AEBAD49003D2AA6 /* Soccer Stats Keeper.app */,
+				C77BB4D21AEBAD49003D2AA6 /* Soccer Stats KeeperTests.xctest */,
+				C77BB4E61AEBAD8C003D2AA6 /* Soccer Stats Keeper WatchKit Extension.appex */,
+				C77BB4F01AEBAD8C003D2AA6 /* Soccer Stats Keeper WatchKit App.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C77BB4BC1AEBAD49003D2AA6 /* Soccer Stats Keeper */ = {
+			isa = PBXGroup;
+			children = (
+				C77BB4BF1AEBAD49003D2AA6 /* AppDelegate.swift */,
+				C77BB4C61AEBAD49003D2AA6 /* Main.storyboard */,
+				C77BB4C91AEBAD49003D2AA6 /* Images.xcassets */,
+				C77BB4CB1AEBAD49003D2AA6 /* LaunchScreen.xib */,
+				C77BB4C11AEBAD49003D2AA6 /* Soccer_Stats_Keeper.xcdatamodeld */,
+				C77BB4BD1AEBAD49003D2AA6 /* Supporting Files */,
+			);
+			path = "Soccer Stats Keeper";
+			sourceTree = "<group>";
+		};
+		C77BB4BD1AEBAD49003D2AA6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C77BB4BE1AEBAD49003D2AA6 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C77BB4D51AEBAD49003D2AA6 /* Soccer Stats KeeperTests */ = {
+			isa = PBXGroup;
+			children = (
+				C77BB4D81AEBAD49003D2AA6 /* Soccer_Stats_KeeperTests.swift */,
+				C77BB4D61AEBAD49003D2AA6 /* Supporting Files */,
+			);
+			path = "Soccer Stats KeeperTests";
+			sourceTree = "<group>";
+		};
+		C77BB4D61AEBAD49003D2AA6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C77BB4D71AEBAD49003D2AA6 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C77BB4E71AEBAD8C003D2AA6 /* Soccer Stats Keeper WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				C77BB4EA1AEBAD8C003D2AA6 /* InterfaceController.swift */,
+				C7D700491AEBBD890017A4D4 /* HomeLadsInterfaceController.swift */,
+				C7D7004B1AEBBDA40017A4D4 /* AwayLadsInterfaceController.swift */,
+				C77BB4EC1AEBAD8C003D2AA6 /* Images.xcassets */,
+				C77BB4E81AEBAD8C003D2AA6 /* Supporting Files */,
+			);
+			path = "Soccer Stats Keeper WatchKit Extension";
+			sourceTree = "<group>";
+		};
+		C77BB4E81AEBAD8C003D2AA6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C77BB4E91AEBAD8C003D2AA6 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C77BB4F41AEBAD8C003D2AA6 /* Soccer Stats Keeper WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				C77BB4F71AEBAD8C003D2AA6 /* Interface.storyboard */,
+				C778A4451AED30F800359AF4 /* Images.xcassets */,
+				C77BB4F51AEBAD8C003D2AA6 /* Supporting Files */,
+				C7A1A52B1AED7A1100157847 /* LaunchScreen.xib */,
+			);
+			path = "Soccer Stats Keeper WatchKit App";
+			sourceTree = "<group>";
+		};
+		C77BB4F51AEBAD8C003D2AA6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C77BB4F61AEBAD8C003D2AA6 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C77BB4B91AEBAD49003D2AA6 /* Soccer Stats Keeper */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C77BB4DC1AEBAD49003D2AA6 /* Build configuration list for PBXNativeTarget "Soccer Stats Keeper" */;
+			buildPhases = (
+				C77BB4B61AEBAD49003D2AA6 /* Sources */,
+				C77BB4B71AEBAD49003D2AA6 /* Frameworks */,
+				C77BB4B81AEBAD49003D2AA6 /* Resources */,
+				C77BB5051AEBAD8C003D2AA6 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C77BB4FD1AEBAD8C003D2AA6 /* PBXTargetDependency */,
+			);
+			name = "Soccer Stats Keeper";
+			productName = "Soccer Stats Keeper";
+			productReference = C77BB4BA1AEBAD49003D2AA6 /* Soccer Stats Keeper.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C77BB4D11AEBAD49003D2AA6 /* Soccer Stats KeeperTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C77BB4DF1AEBAD49003D2AA6 /* Build configuration list for PBXNativeTarget "Soccer Stats KeeperTests" */;
+			buildPhases = (
+				C77BB4CE1AEBAD49003D2AA6 /* Sources */,
+				C77BB4CF1AEBAD49003D2AA6 /* Frameworks */,
+				C77BB4D01AEBAD49003D2AA6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C77BB4D41AEBAD49003D2AA6 /* PBXTargetDependency */,
+			);
+			name = "Soccer Stats KeeperTests";
+			productName = "Soccer Stats KeeperTests";
+			productReference = C77BB4D21AEBAD49003D2AA6 /* Soccer Stats KeeperTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C77BB4E51AEBAD8C003D2AA6 /* Soccer Stats Keeper WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C77BB5021AEBAD8C003D2AA6 /* Build configuration list for PBXNativeTarget "Soccer Stats Keeper WatchKit Extension" */;
+			buildPhases = (
+				C77BB4E21AEBAD8C003D2AA6 /* Sources */,
+				C77BB4E31AEBAD8C003D2AA6 /* Frameworks */,
+				C77BB4E41AEBAD8C003D2AA6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C77BB4F31AEBAD8C003D2AA6 /* PBXTargetDependency */,
+			);
+			name = "Soccer Stats Keeper WatchKit Extension";
+			productName = "Soccer Stats Keeper WatchKit Extension";
+			productReference = C77BB4E61AEBAD8C003D2AA6 /* Soccer Stats Keeper WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit-extension";
+		};
+		C77BB4EF1AEBAD8C003D2AA6 /* Soccer Stats Keeper WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C77BB4FF1AEBAD8C003D2AA6 /* Build configuration list for PBXNativeTarget "Soccer Stats Keeper WatchKit App" */;
+			buildPhases = (
+				C77BB4EE1AEBAD8C003D2AA6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Soccer Stats Keeper WatchKit App";
+			productName = "Soccer Stats Keeper WatchKit App";
+			productReference = C77BB4F01AEBAD8C003D2AA6 /* Soccer Stats Keeper WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C77BB4B21AEBAD49003D2AA6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = "Christopher Simusokwe";
+				TargetAttributes = {
+					C77BB4B91AEBAD49003D2AA6 = {
+						CreatedOnToolsVersion = 6.3.1;
+					};
+					C77BB4D11AEBAD49003D2AA6 = {
+						CreatedOnToolsVersion = 6.3.1;
+						TestTargetID = C77BB4B91AEBAD49003D2AA6;
+					};
+					C77BB4E51AEBAD8C003D2AA6 = {
+						CreatedOnToolsVersion = 6.3.1;
+						DevelopmentTeam = 4KTRDXJB37;
+					};
+					C77BB4EF1AEBAD8C003D2AA6 = {
+						CreatedOnToolsVersion = 6.3.1;
+						DevelopmentTeam = 4KTRDXJB37;
+					};
+				};
+			};
+			buildConfigurationList = C77BB4B51AEBAD49003D2AA6 /* Build configuration list for PBXProject "Soccer Stats Keeper" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C77BB4B11AEBAD49003D2AA6;
+			productRefGroup = C77BB4BB1AEBAD49003D2AA6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C77BB4B91AEBAD49003D2AA6 /* Soccer Stats Keeper */,
+				C77BB4D11AEBAD49003D2AA6 /* Soccer Stats KeeperTests */,
+				C77BB4E51AEBAD8C003D2AA6 /* Soccer Stats Keeper WatchKit Extension */,
+				C77BB4EF1AEBAD8C003D2AA6 /* Soccer Stats Keeper WatchKit App */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C77BB4B81AEBAD49003D2AA6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C77BB4C81AEBAD49003D2AA6 /* Main.storyboard in Resources */,
+				C77BB4CD1AEBAD49003D2AA6 /* LaunchScreen.xib in Resources */,
+				C77BB4CA1AEBAD49003D2AA6 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C77BB4D01AEBAD49003D2AA6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C77BB4E41AEBAD8C003D2AA6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C77BB4ED1AEBAD8C003D2AA6 /* Images.xcassets in Resources */,
+				C77BB4F11AEBAD8C003D2AA6 /* Soccer Stats Keeper WatchKit App.app in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C77BB4EE1AEBAD8C003D2AA6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C77BB4F91AEBAD8C003D2AA6 /* Interface.storyboard in Resources */,
+				C7A1A52C1AED7A1100157847 /* LaunchScreen.xib in Resources */,
+				C778A4461AED30F800359AF4 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C77BB4B61AEBAD49003D2AA6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C77BB4C31AEBAD49003D2AA6 /* Soccer_Stats_Keeper.xcdatamodeld in Sources */,
+				C77BB4C01AEBAD49003D2AA6 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C77BB4CE1AEBAD49003D2AA6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C77BB4D91AEBAD49003D2AA6 /* Soccer_Stats_KeeperTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C77BB4E21AEBAD8C003D2AA6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C7D7004A1AEBBD890017A4D4 /* HomeLadsInterfaceController.swift in Sources */,
+				C77BB4EB1AEBAD8C003D2AA6 /* InterfaceController.swift in Sources */,
+				C7D7004C1AEBBDA40017A4D4 /* AwayLadsInterfaceController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C77BB4D41AEBAD49003D2AA6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C77BB4B91AEBAD49003D2AA6 /* Soccer Stats Keeper */;
+			targetProxy = C77BB4D31AEBAD49003D2AA6 /* PBXContainerItemProxy */;
+		};
+		C77BB4F31AEBAD8C003D2AA6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C77BB4EF1AEBAD8C003D2AA6 /* Soccer Stats Keeper WatchKit App */;
+			targetProxy = C77BB4F21AEBAD8C003D2AA6 /* PBXContainerItemProxy */;
+		};
+		C77BB4FD1AEBAD8C003D2AA6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C77BB4E51AEBAD8C003D2AA6 /* Soccer Stats Keeper WatchKit Extension */;
+			targetProxy = C77BB4FC1AEBAD8C003D2AA6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C77BB4C61AEBAD49003D2AA6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C77BB4C71AEBAD49003D2AA6 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C77BB4CB1AEBAD49003D2AA6 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C77BB4CC1AEBAD49003D2AA6 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+		C77BB4F71AEBAD8C003D2AA6 /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C77BB4F81AEBAD8C003D2AA6 /* Base */,
+			);
+			name = Interface.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C77BB4DA1AEBAD49003D2AA6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				COMPRESS_PNG_FILES = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE = "6f411fcd-234e-429b-bf2e-ad56f34b3bf1";
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C77BB4DB1AEBAD49003D2AA6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				COMPRESS_PNG_FILES = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PROVISIONING_PROFILE = "6f411fcd-234e-429b-bf2e-ad56f34b3bf1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C77BB4DD1AEBAD49003D2AA6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				INFOPLIST_FILE = "Soccer Stats Keeper/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "6f411fcd-234e-429b-bf2e-ad56f34b3bf1";
+			};
+			name = Debug;
+		};
+		C77BB4DE1AEBAD49003D2AA6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				INFOPLIST_FILE = "Soccer Stats Keeper/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "6f411fcd-234e-429b-bf2e-ad56f34b3bf1";
+			};
+			name = Release;
+		};
+		C77BB4E01AEBAD49003D2AA6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_IDENTITY = "";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Soccer Stats KeeperTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "7c1927b1-3629-43da-be31-54bc8582bfe5";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Soccer Stats Keeper.app/Soccer Stats Keeper";
+			};
+			name = Debug;
+		};
+		C77BB4E11AEBAD49003D2AA6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_IDENTITY = "";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Soccer Stats KeeperTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "7c1927b1-3629-43da-be31-54bc8582bfe5";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Soccer Stats Keeper.app/Soccer Stats Keeper";
+			};
+			name = Release;
+		};
+		C77BB5001AEBAD8C003D2AA6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				IBSC_MODULE = Soccer_Stats_Keeper_WatchKit_Extension;
+				INFOPLIST_FILE = "Soccer Stats Keeper WatchKit App/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "f6214a9d-6ac0-4eee-a1b4-41791e5aa375";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				"TARGETED_DEVICE_FAMILY[sdk=iphonesimulator*]" = "1,4";
+			};
+			name = Debug;
+		};
+		C77BB5011AEBAD8C003D2AA6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				IBSC_MODULE = Soccer_Stats_Keeper_WatchKit_Extension;
+				INFOPLIST_FILE = "Soccer Stats Keeper WatchKit App/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "f6214a9d-6ac0-4eee-a1b4-41791e5aa375";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				"TARGETED_DEVICE_FAMILY[sdk=iphonesimulator*]" = "1,4";
+			};
+			name = Release;
+		};
+		C77BB5031AEBAD8C003D2AA6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Soccer Stats Keeper WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				PROVISIONING_PROFILE = "9bd66376-938a-4fd9-80ca-1c265dc0e838";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		C77BB5041AEBAD8C003D2AA6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				INFOPLIST_FILE = "Soccer Stats Keeper WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				PROVISIONING_PROFILE = "9bd66376-938a-4fd9-80ca-1c265dc0e838";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C77BB4B51AEBAD49003D2AA6 /* Build configuration list for PBXProject "Soccer Stats Keeper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C77BB4DA1AEBAD49003D2AA6 /* Debug */,
+				C77BB4DB1AEBAD49003D2AA6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C77BB4DC1AEBAD49003D2AA6 /* Build configuration list for PBXNativeTarget "Soccer Stats Keeper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C77BB4DD1AEBAD49003D2AA6 /* Debug */,
+				C77BB4DE1AEBAD49003D2AA6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C77BB4DF1AEBAD49003D2AA6 /* Build configuration list for PBXNativeTarget "Soccer Stats KeeperTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C77BB4E01AEBAD49003D2AA6 /* Debug */,
+				C77BB4E11AEBAD49003D2AA6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C77BB4FF1AEBAD8C003D2AA6 /* Build configuration list for PBXNativeTarget "Soccer Stats Keeper WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C77BB5001AEBAD8C003D2AA6 /* Debug */,
+				C77BB5011AEBAD8C003D2AA6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C77BB5021AEBAD8C003D2AA6 /* Build configuration list for PBXNativeTarget "Soccer Stats Keeper WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C77BB5031AEBAD8C003D2AA6 /* Debug */,
+				C77BB5041AEBAD8C003D2AA6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		C77BB4C11AEBAD49003D2AA6 /* Soccer_Stats_Keeper.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				C77BB4C21AEBAD49003D2AA6 /* Soccer_Stats_Keeper.xcdatamodel */,
+			);
+			currentVersion = C77BB4C21AEBAD49003D2AA6 /* Soccer_Stats_Keeper.xcdatamodel */;
+			path = Soccer_Stats_Keeper.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = C77BB4B21AEBAD49003D2AA6 /* Project object */;
+}

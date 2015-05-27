@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7702" systemVersion="14D136" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="RpK-AZ-lRx">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7701"/>
+        <capability name="Alignment constraints with different attributes" minToolsVersion="5.1"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--Soccer Stats View Controller-->
+        <scene sceneID="4XR-oZ-8VO">
+            <objects>
+                <viewController title="Soccer Stats View Controller" id="RpK-AZ-lRx" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="XgF-aQ-brO"/>
+                        <viewControllerLayoutGuide type="bottom" id="Z3o-V8-J9m"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Icu-74-wic">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="This is a Soccer Stats Keeper App" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aYu-6Y-qIa">
+                                <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="21" id="zlh-Tb-O7l"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="zlh-Tb-O7l"/>
+                                    </mask>
+                                </variation>
+                                <variation key="heightClass=regular">
+                                    <mask key="constraints">
+                                        <include reference="zlh-Tb-O7l"/>
+                                    </mask>
+                                </variation>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Developed for the Apple Watch" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CIK-sB-IKD">
+                                <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="21" id="akL-FG-i28"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="akL-FG-i28"/>
+                                    </mask>
+                                </variation>
+                                <variation key="heightClass=regular">
+                                    <mask key="constraints">
+                                        <include reference="akL-FG-i28"/>
+                                    </mask>
+                                </variation>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="aYu-6Y-qIa" firstAttribute="leading" secondItem="Icu-74-wic" secondAttribute="leadingMargin" constant="10" id="K1p-Q4-G0J"/>
+                            <constraint firstItem="CIK-sB-IKD" firstAttribute="leading" secondItem="Icu-74-wic" secondAttribute="leadingMargin" constant="10" id="TCM-hE-Sqd"/>
+                            <constraint firstItem="Z3o-V8-J9m" firstAttribute="top" secondItem="CIK-sB-IKD" secondAttribute="bottom" constant="370" id="gbn-yv-rQJ"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="CIK-sB-IKD" secondAttribute="trailing" constant="10" id="hYW-es-BdJ"/>
+                            <constraint firstItem="Z3o-V8-J9m" firstAttribute="top" secondItem="aYu-6Y-qIa" secondAttribute="bottom" constant="400" id="oTc-Ba-KhO"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="aYu-6Y-qIa" secondAttribute="trailing" constant="10" id="sw1-pX-LUh"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="subviews">
+                                <exclude reference="aYu-6Y-qIa"/>
+                                <exclude reference="CIK-sB-IKD"/>
+                            </mask>
+                            <mask key="constraints">
+                                <exclude reference="TCM-hE-Sqd"/>
+                                <exclude reference="hYW-es-BdJ"/>
+                                <exclude reference="gbn-yv-rQJ"/>
+                                <exclude reference="oTc-Ba-KhO"/>
+                                <exclude reference="K1p-Q4-G0J"/>
+                                <exclude reference="sw1-pX-LUh"/>
+                            </mask>
+                        </variation>
+                        <variation key="heightClass=regular">
+                            <mask key="subviews">
+                                <include reference="aYu-6Y-qIa"/>
+                                <include reference="CIK-sB-IKD"/>
+                            </mask>
+                            <mask key="constraints">
+                                <include reference="TCM-hE-Sqd"/>
+                                <include reference="hYW-es-BdJ"/>
+                                <include reference="gbn-yv-rQJ"/>
+                                <include reference="oTc-Ba-KhO"/>
+                                <include reference="K1p-Q4-G0J"/>
+                                <include reference="sw1-pX-LUh"/>
+                            </mask>
+                        </variation>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="7ms-LV-znc" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="433" y="-69"/>
+        </scene>
+    </scenes>
+</document>
